@@ -6,4 +6,4 @@ The process was split in 2 sections - file handling and file cutting. The file h
 
 The first version of the bot did not utilise VBA and was not dynamic. This version was very slow, taking approximately 20 hours to run for the 100+ files needed. It involved a loop of the 'Delete Row' function in Power Automate depending on information found in each cell. As each file had 11 sheets with 1000s of rows for each employee, the processing time was very slow. We tested multiple alternative methods, and eventually found the use of VBA to be the quickest. 
 
-We decided later that we wanted to make the bot fully dynamic so it could 'cut' any sheet based on user input. This allows the bot to be utilised for additional tasks outside of the budgeting process.
+We decided later that we wanted to make the bot fully dynamic so it could 'cut' any sheet based on user input. This allows the bot to be utilised for additional tasks outside of the budgeting process, saving time on other projects.
